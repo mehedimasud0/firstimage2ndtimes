@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+/*Header Start*/
+
+header{
+    border-bottom: 2px solid rgb(177, 173, 173);
+}
+
+.container{
+    width:90%;
+    margin: 15px auto;
+    overflow: hidden;
+}
+.logo{
+    width: 10%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.navbar{
+    width: 90%;
+    float: right;
+}
+.navbar ul{
+    float: right;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+.navbar ul li:last-child{
+    padding-right: 0;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #585475 ;
+}
+.navbar ul li a:hover{
+    color: #008aff;
+}
+/*Header End*/
+
+/*Banar Section Start*/
+.baner{
+    
+
+}
+.conteiner2{
+    width: 55%;
+    margin: 50px auto;
+    text-align: center;
+}
+.s_top{}
+.s_top h1{
+    font-size: 48px;
+    color: #0f2656;
+    line-height: 1.5;
+}
+.s_top h1 span{
+    display: block;
+    color: #008aff;
+}
+.s_top p{
+    line-height: 1.5;
+    margin: 10px 0;
+   
+}
+.s_buttom{
+    margin: 30px 0;
+}
+.s_buttom img{
+    width: 100%;
+}
+/*Banar Section End*/
+
+/*Success Area Start*/
+.conteiner3{
+    width: 57%;
+    margin: 70px auto;
+    overflow: hidden;
+    
+}
+.conteiner3 .left_area{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+.conteiner3 .left_area h1{
+    font-size: 48px;
+    color: #f15767;
+}
+.conteiner3 .left_area p{}
+.conteiner3 .right_area{
+    width: 50%;
+    float: right;
+}
+.conteiner3 .right_area h2{
+    font-size: 48px;
+    color: #0f2656;
+}
+/*Success Area End*/
+/*Section Start*/
+.item{
+    width: 31%;
+    margin-right: 3.33%;
+    padding: 25px;
+    box-sizing: border-box;
+    float: left;
+}
+.item:last-child{
+    margin-right: 0;
+}
+.item img{
+    width: 100%;
+}
+.item h2{
+    color: #0f2656;
+    margin: 10px 0;
+}
+.item p{
+    line-height: 1.5;
+}
+.red{
+    background-color: #fdebed;
+}
+.blue{
+   background-color: #ebf9f4;
+}
+.pink{
+    background-color: #fff7e8;
+}
+/*Section End*/
+
+/*Footer Start*/
+footer{
+    background-color: #008aff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 70px;
+}
+footer p{
+    color: rgb(182, 177, 177);
+}
+footer p a{
+    text-decoration: none;
+    color: #ddd;
+}
+/*Footer End*/
+
+
+
+
+
